@@ -1,0 +1,74 @@
+body {
+   background-image: linear-gradient( to right, rgb(95, 163, 184), rgb(24, 110, 136));
+}   
+
+#contentBox {
+
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    border-radius: 3px;
+    border-style: solid;
+    align-content: center;
+    margin: 0 auto;
+    
+}
+
+.headerBox {
+    background-color: white;
+    width: 570px;
+    height: 50px;
+    border-color: rgb(11, 23, 27);
+    border-radius: 3px;
+    border-style: solid;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+
+}
+
+.col-sm-3 {
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#weather {
+    text-align: center;
+    font-size: large;
+}
+
+#temperature {
+    text-align: center;
+    font-size: 30px;
+}
+
+#icon {
+    text-align: center;
+}
+
+#city {
+  margin: 0 auto;
+}
+
+#Search {
+
+}
+
+#history {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
