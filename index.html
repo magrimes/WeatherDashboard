@@ -27,20 +27,19 @@
 
     <div class="row">
         <div class="col-sm-3">
-            <h3>Search a City:</h3>
+            <h3>Search for a City:</h3>
 
             <input id="city" type="text" placeholder="Enter a City">
             <button id="Search">Search</button>
         </div>
     </div>
 
-    <div class="container" id="contentBox">
+    <div class="container-fluid" id="contentBox">
+        <h2 id="cityName">City Name</h2>
 
-
-        <div id="weather">
-            <p>Temperature: <span id="temperature"></span></p>
-            <img id="icon">
-        </div>
+        <p> Temperature: <span id="temperature"></span> <img id="icon"> </p>
+        <p id="humidity">Humidity: </p>
+        <p id="windSpeed">Wind Speed: </p>
 
 
 
@@ -49,7 +48,9 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="script.js"></script>
+    
 </body>
 
 </html>
