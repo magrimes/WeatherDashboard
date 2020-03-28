@@ -1,47 +1,77 @@
-body {
-   background-image: linear-gradient( to right, rgb(95, 163, 184), rgb(24, 110, 136));
-}   
+html{height:100vh;}
+body{height:100vh;}
 
 .header {
+   color: white;
+   text-align: center;
+   background-color: lightskyblue;
+}
+
+.searchBox {
+    background-color: rgb(196, 209, 214);
+    min-height: 100vh;
+    height: 100%;
+}
+
+#contentBox {
     background-color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    align-items: center;
+    min-height: 263px;
+    border-radius: 15px 0px 0px 15px;
+    border-style: solid;
+    /* display: flex; */
+}
+
+li {
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 2px;
+    border-radius: 5px;
     margin: 5px;
+}
+
+h3 {
+    margin-left: 15px;
+}
+
+#searchButton {
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#cityInput {
+    margin-left: 15px;
+    width: 50%;
     align-content: flex-start;
 }
 
+p {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* 
 h1 {
     text-align: center;
     padding: 10px;
 }
 
 .col-sm-3 {
-    background-color: rgb(196, 209, 214);
-    padding: 20px;
-    margin: 20px;
+  
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-#contentBox {
-
-    background-color: white;
-    height: 600px;
-    width: 600px;
-    border-radius: 3px;
-    border-style: solid;
-    align-content: center;
-    margin: 0 auto;
-    
-}
 
 .headerBox {
     background-color: white;
@@ -62,21 +92,14 @@ h1 {
     font-size: large;
 }
 
-#temperature {
-    text-align: center;
-    font-size: 30px;
-}
 
 #icon {
     text-align: center;
+    transform: rotate(-45deg);
 }
 
-#city {
-  margin: 0 auto;
-}
-
-#Search {
-
+p {
+    font-size: 20px;
 }
 
 #history {
