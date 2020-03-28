@@ -2,13 +2,13 @@ html{height:100vh;}
 body{height:100vh;}
 
 .header {
-   color: white;
+   color: rgb(123, 205, 238);
    text-align: center;
-   background-color: lightskyblue;
+   background-color: white;
 }
 
 .searchBox {
-    background-color: rgb(196, 209, 214);
+    background-color: rgb(123, 205, 238);
     min-height: 100vh;
     height: 100%;
 }
@@ -18,10 +18,9 @@ body{height:100vh;}
     margin-left: 15px;
     margin-top: 15px;
     align-items: center;
-    min-height: 263px;
-    border-radius: 15px 0px 0px 15px;
+    min-height: 300px;
+    border-radius: 15px;
     border-style: solid;
-    /* display: flex; */
 }
 
 li {
@@ -54,25 +53,16 @@ p {
     font-size: 20px;
 }
 
-
-
-
-
-
-
-
-/* 
 h1 {
     text-align: center;
     padding: 10px;
 }
 
-.col-sm-3 {
-  
-}
 
 
 
+
+/*  
 .headerBox {
     background-color: white;
     width: 570px;
@@ -96,10 +86,6 @@ h1 {
 #icon {
     text-align: center;
     transform: rotate(-45deg);
-}
-
-p {
-    font-size: 20px;
 }
 
 #history {
