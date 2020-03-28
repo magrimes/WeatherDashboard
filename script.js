@@ -62,14 +62,18 @@ $("#history").on("click", "button", function () {
 })
 
 // Stores and displays previous searches
-function 
+function renderCitySearchHistory() {
+    var storedCities = JSON.parse(localStorage.getItem("Cities"));
+    if (storedCities !== null) {
+        citySearchHistory = storedCities;
+        city = citySearchHistory.slice(-1)[0];
+    }
+    showHistory.innerHTML = "";
+    for (var i = 0; i < citySearchHistory.length; i++) {
+        var cityTitle = citySearchHistory[i];
 
-
-
-
-// Loads last searched city forecast on page load
-
-
-
-
-
+        var list = document.createElement("list");
+        list.textContent = cityTitle;
+        showHistory.appendChild(list);
+    }
+}
