@@ -57,7 +57,7 @@ function getCurrentWeatherSearch() {
         console.log(response);
 
         cityName.innerHTML = city + " - " + moment().format('MMM Do YYYY, h:mm a') + " <img src ='https://openweathermap.org/img/wn/" + response.weather[0].icon + "@2x.png'>" 
-        temperature.innerHTML = "Temperature: " + (((response.main.temp - 273.15) * (9 / 5) + 32).toFixed(0)) + '';
+        temperature.innerHTML = "Temperature: " + (((response.main.temp - 273.15) * (9 / 5) + 32).toFixed(0)) + "&#8457";
         showHumidity.innerHTML = "Humidity: " + response.main.humidity + "%";
         showWindSpeed.innerHTML = "Wind Speed: " + response.wind.speed + " MPH";
     })
